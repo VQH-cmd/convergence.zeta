@@ -3,7 +3,7 @@
 # **Convergence ζ**
 
 - 📦 *Toolkit:* **`Convergence ζ`**
-- 🏗️ *Version:* **`1.0.0`**
+- 🏗️ *Version:* **`1.0.1`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 <br>
@@ -17,6 +17,8 @@ ________________________________________________________________
 - **[Convergence Zeta](#)**
 - A toolkit for **[Monolith](https://github.com/VQH-cmd/Monolith)** template.
 - Recommend using **[React](https://reactjs.org)** !
+- **[Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement)** (HMR).
+- **[Code-Splitting](https://reactjs.org/docs/code-splitting.html)**.
 - Inspired by: **[Captain Panic! & Systek - [Monolith]: Convergence)](https://captainpanicmonolith.bandcamp.com/track/convergence)**.
 - **Everything is Connected:** One Package connect to many projects !
 
@@ -81,7 +83,8 @@ ________________________________________________________________
 [React](https://reactjs.org) `[ .jsx .tsx ]`<br>
 [PHP](https://www.php.net) (proxy)<br>
 [WordPress](https://wordpress.org) (proxy)<br>
-`localhost`
+`localhost`<br>
+`FTP`
 
 
 <br>
@@ -100,6 +103,7 @@ ________________________________________________________________
 --------			| --------
 `yarn <command> p=<DEST>`	| Use the Toolkit.
 `yarn c --p=<DEST> --t=<template>`		| Create a template.
+`yarn ftp --p=<DEST>`		| Upload to FTP.
 `yarn intro`		| Show the intro in terminal.
 `ncu`				| Check Update.
 
@@ -146,6 +150,7 @@ ________________________________________________________________
 			- `breakpoint.json` (CSS Breakpoint Responsive)
 			- `config.json` ([Convergence](#)'s Config)
 			- `misc.json` (SASS Config)
+			- `ftp.json` (FTP Config)
 			- `theme.json` (Themes/Colors Config)
 			- `whitelist.json` (PurgeCSS config)
 		- `/js` *(JavaScript + TypeScript)*
