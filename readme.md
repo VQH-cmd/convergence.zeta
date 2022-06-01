@@ -3,7 +3,7 @@
 # **Convergence ζ**
 
 - 📦 *Toolkit:* **`Convergence ζ`**
-- 🏗️ *Version:* **`1.0.1`**
+- 🏗️ *Version:* **`1.2.0`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 <br>
@@ -83,6 +83,8 @@ ________________________________________________________________
 [React](https://reactjs.org) `[ .jsx .tsx ]`<br>
 [PHP](https://www.php.net) (proxy)<br>
 [WordPress](https://wordpress.org) (proxy)<br>
+[TheBASE](https://thebase.in) (local + FTP)<br>
+`Node Server` ([Express](https://expressjs.com/))<br>
 `localhost`<br>
 `FTP`
 
@@ -93,41 +95,23 @@ ________________________________________________________________
 
 <br>
 
-## **`[04]:` Commands & Description**
-
-> Use the **`Terminal`** to execute the commands.
+## **`[04]:` Usage**
 
 <br>
 
-📟 Overall Commands		| 📝 Description
---------			| --------
-`yarn <command> p=<DEST>`	| Use the Toolkit.
-`yarn c --p=<DEST> --t=<template>`		| Create a template.
-`yarn ftp --p=<DEST>`		| Upload to FTP.
-`yarn intro`		| Show the intro in terminal.
-`ncu`				| Check Update.
+> Use the **`Terminal`** to execute the command.
 
 <br>
 
-📟 `<command>`		| 📝 Description
---------			| --------
-d | Development mode
-b | Production mode
+```
+yarn s
+```
+or
+```
+npm s
+```
 
-<br>
-
-📟 `<template>`		| 📝 Description
---------			| --------
-`react` | Default
-`wp` | WordPress
-
-<br>
-
-`<DEST>` = Destination. Example:
-<br>
-`yarn d --p D:/Project/example_x`
-<br>
-`yarn b --p D:/Shopify/example_x`
+![](media/u-01.gif)
 
 <br>
 
@@ -157,7 +141,7 @@ ________________________________________________________________
 			- `script.ts`
 		- `/sass` *(SASS)*
 			- `style.sass`
-		- `template.ejs` (for vanilla HTML)
+		- `/pug` (Pug)
 	- **`/docs`** *(identify)*
 
 <br>
@@ -180,11 +164,35 @@ ________________________________________________________________
 
 <br>
 
+----------------------------------------------------------------
+
+<br>
+
+### **[TheBASE](https://thebase.in)**
+
++ **`Project_Name/`** *(also the root)*
+	- **`📦[Pack]`**
+	- `index.html` *(result)*
+	- `*.css` *(result)*
+	- `*.js` *(result)*
+
+<br>
+
 ________________________________________________________________
 
 <br>
 
-## **`[06]:` Download**
+## **`[06]:` Issue**
+
+- For **`CORS`** issue if using `proxy`, just install **[CORS Unblock](https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino)**.
+
+<br>
+
+________________________________________________________________
+
+<br>
+
+## **`[07]:` Download**
 
 Download link in any **Monolith** project via this location:
 + **`Project_Name/`** *(also the root)*
